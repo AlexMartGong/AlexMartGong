@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hola, mi nombre es Alex
+
+Soy estudiante del Tecmm campus tequila que estudia Ingeniería Informática.
 
 <!--
 **AlexMartGong/AlexMartGong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
