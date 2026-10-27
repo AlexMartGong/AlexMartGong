@@ -57,8 +57,10 @@ I'm a software engineer specialized in **backend development with Java & Spring 
 **Full-Stack Developer** · Mar 2025 – Present · 🌐 [lapasadita.app](https://lapasadita.app)
 
 ![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot 3](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![React 18](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Spring Boot 4](https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![React 19](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite 8](https://img.shields.io/badge/Vite_8-646CFF?style=flat-square&logo=vite&logoColor=white)
+![MUI 9](https://img.shields.io/badge/MUI_9-007FFF?style=flat-square&logo=mui&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Facturapi](https://img.shields.io/badge/Facturapi_CFDI_4.0-4F46E5?style=flat-square)
 ![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white)
@@ -70,6 +72,7 @@ I'm a software engineer specialized in **backend development with Java & Spring 
 - ⚖️ Custom **Java WebSocket agent** bridging the browser with physical hardware — digital scales (RS-232) and ESC/POS thermal printers — **shaving 6–7 seconds off every checkout**.
 - 🧪 JUnit 5 + Mockito coverage of critical **tax-compliance rules** (RESICO income-tax withholding, SAT catalog validation, cancellation flows); API documented with Spring REST Docs.
 - ☁️ Operated on a **Linux VPS** with Docker Compose, GitHub Actions CI/CD, Spring Security (JWT), and **Cloudflare CDN + R2** image storage (AWS SDK v2).
+- ⬆️ Migrated the backend from Spring Boot 3 to **Spring Boot 4** (Spring Framework 7, Spring Security 7, Hibernate 7, Jackson 3) and the frontend to **React 19 + Vite 8 + MUI 9**, keeping the JSON contract the POS and the print agent depend on.
 - 💰 Digitizing the point of sale **cut paper-related operating costs by 70%**.
 
 ### 🎓 SICIA — School Management System (TecNM)
