@@ -143,8 +143,11 @@ I'm a software engineer specialized in **backend development with Java & Spring 
 
 <div align="center">
 
-<img height="180" alt="Alex's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AlexMartGong&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-<img height="180" alt="Alex's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexMartGong&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+<img width="100%" alt="Alex's contributions over the last year" src="./profile-summary-card-output/tokyonight/0-profile-details.svg"/>
+
+<img height="170" alt="Alex's GitHub stats" src="./profile-summary-card-output/tokyonight/3-stats.svg"/>
+<img height="170" alt="Languages by commit" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg"/>
+<img height="170" alt="Repositories by language" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg"/>
 
 </div>
 

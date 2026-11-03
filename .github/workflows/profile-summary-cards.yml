@@ -1,0 +1,36 @@
+name: Profile summary cards
+
+# Generates the "GitHub Analytics" cards shown in README.md and commits them to
+# profile-summary-card-output/tokyonight/. The SVGs live in this repo, so the
+# README never depends on an external stats server being up.
+on:
+  schedule:
+    - cron: "17 7 * * *" # once a day, 01:17 in Mexico City (UTC-6)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-summary-cards.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-summary-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Pinned to v0.12.1 by commit SHA.
+      - uses: vn7n24fzkq/github-profile-summary-cards@58ec032e39377dd38329bdc1db70074fe74fbb17
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: -6
+          THEME: tokyonight
+          AUTO_PUSH: true
